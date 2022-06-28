@@ -1,0 +1,36 @@
+
+<!-- include file template  -->
+<%- include('../layout/header.ejs', { pageTitle: 'Danh sách người dùng' }) %>
+
+<div class="container">
+    <%- include('../layout/navbar.ejs') -%>
+    <div class="card">
+        <div class="card-header">
+            Danh sách người dùng
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tên</th>
+                    <th scope="col">Email</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <% users.forEach((user, index) => {%>
+                <tr>
+                    <th scope="row"><%- index + 1 -%></th>
+                    <td><%- user.name -%></td>
+                    <td><%- user.email -%></td>
+                </tr>
+                <% }); %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- include file template  -->
+<%- include('../layout/footer.ejs') %>
