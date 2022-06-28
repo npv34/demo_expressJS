@@ -7,6 +7,7 @@
     <div class="card">
         <div class="card-header">
             Danh sách người dùng
+            <a href="/admin/users/create">Thêm mới</a>
         </div>
         <div class="card-body">
             <table class="table">
@@ -21,9 +22,9 @@
                 <tbody>
                 <% users.forEach((user, index) => {%>
                 <tr>
-                    <th scope="row"><%- index + 1 -%></th>
-                    <td><%- user.name -%></td>
-                    <td><%- user.email -%></td>
+                    <th scope="row"><%- index + 1 %></th>
+                    <td><%- user.name %></td>
+                    <td><%- user.email %></td>
                 </tr>
                 <% }); %>
                 </tbody>

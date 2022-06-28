@@ -16,5 +16,29 @@
     "name": "quan",
     "email": "quan@example.com",
     "password": "1234"
+  },
+  {
+    "name": "Phan Van Luan",
+    "email": "admin@gmail.com",
+    "password": "123456",
+    "id": 4
+  },
+  {
+    "name": "Phan Van Luan 34",
+    "email": "luan.phan@codegym.vn",
+    "password": "123456",
+    "id": 5
+  },
+  {
+    "name": "Phan Van Luan 34",
+    "email": "phanvanluan611996@gmail.com",
+    "password": "rwerwerw",
+    "id": 6
+  },
+  {
+    "name": "Iphone 12",
+    "email": "12@gmail.com",
+    "password": "123456",
+    "id": 7
   }
 ]
